@@ -1,0 +1,8 @@
+base58
+bip_utils
+telegram
+python-telegram-bot
+solders
+solana
+requests
+aiohttp
