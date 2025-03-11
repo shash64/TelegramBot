@@ -1,7 +1,7 @@
 # TelegramBot
 
 ## Description
-This is a Telegram bot designed to facilitate investments in memecoins on the Solana blockchain. It uses the Telegram, Solana, and Raydium libraries, as well as the Solscan, Dexscreener and Raydium APIs, to provide real-time data and investment functionalities.
+This is a Telegram bot designed to invest in memecoins on the Solana blockchain. It uses the Telegram, Solana, and Raydium libraries, as well as the Solscan, Dexscreener and Raydium APIs, to provide real-time data and investment functionalities.
 
 ## Features
 - **Real-time Memecoin Data**: Fetches live data on memecoins using Solscan and dexscreener APIs.
@@ -32,10 +32,9 @@ This is a Telegram bot designed to facilitate investments in memecoins on the So
    pip install -r requirements.txt
 
 
-Please, before running the `MoonMapper.py` file, create a bot via the **BotFather** on Telegram and copy the token to paste it into the main file. 
+Please, before running the `MoonMapper.py` file, create a bot with the **BotFather** on Telegram and copy the token to paste it into the main file. 
 
 You also need an RPC to make buy and sell requests; you can use, for example, **Helius** (free). To do this, create a Helius account, copy your key and enter the RPC link in the following files: `pool_utils.py`, `common_utils.py`, and `amm_v4.py`. 
 
 Please note that some features have not yet been developed, including the sniper, copy trading, and slippage automation. 
-
-The bot only works with **Raydium AMM pairs**, meaning you cannot trade pairs created with other DEXs or Raydium CPMM/CLMM pools.
+(⚠️) The bot only works with **Raydium AMM pairs**, meaning you cannot trade pairs created with other DEXs or Raydium CPMM/CLMM pools.
