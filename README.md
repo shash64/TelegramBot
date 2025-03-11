@@ -37,4 +37,5 @@ Please, before running the `MoonMapper.py` file, create a bot with the **BotFath
 You also need an RPC to make buy and sell requests; you can use, for example, **Helius** (free). To do this, create a Helius account, copy your key and enter the RPC link in the following files: `pool_utils.py`, `common_utils.py`, and `amm_v4.py`. 
 
 Please note that some features have not yet been developed, including the sniper, copy trading, and slippage automation. 
+
 (⚠️) The bot only works with **Raydium AMM pairs**, meaning you cannot trade pairs created with other DEXs or Raydium CPMM/CLMM pools.
